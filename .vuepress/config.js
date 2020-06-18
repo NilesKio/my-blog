@@ -2,6 +2,9 @@ module.exports = {
   title: "Niles的blog",
   description: 'Niles‘s theme park .',
   dest: 'public',
+
+  base: '/my-blog/',
+
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
@@ -76,7 +79,7 @@ module.exports = {
     startYear: '2020'
     /**
      * 密钥 (if your blog is private)
-     */
+          */
 
     // keyPage: {
     //   keys: ['your password'],
